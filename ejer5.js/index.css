@@ -1,0 +1,103 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-mynav {
+    background-color: none;
+    box-shadow: #ccc;
+}
+
+body {
+    background-image: linear-gradient(to right top, #38537a, #636f8f, #8a8da4, #aeaeb9, #d0d0d0);
+}
+
+.form-responsive {
+    border-style: 5px;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.tabla-responsive {
+    border-style: initial;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+body>table {
+    width: 90%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #747678;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even),
+table.list thead>tr {
+    background-color: #999B9D;
+}
+
+input[type=text],
+input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-image: linear-gradient(to right top, #051937, #142c50, #23406b, #325587, #406ba4);
+    border: 1px;
+    color: white;
+    padding: 10px 18px;
+    box-shadow: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.action-buttons {
+    text-align: center;
+}
+
+.bottom {
+    padding: 2px;
+}
+
+.input_text {
+    width: 20px;
+    padding: 8px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+.hide {
+    display: none;
+}
